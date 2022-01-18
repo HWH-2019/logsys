@@ -1,0 +1,1 @@
+cmd_/home/hwh/桌面/logsys/xfs/hwhxfs.ko := ld -r -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/hwh/桌面/logsys/xfs/hwhxfs.ko /home/hwh/桌面/logsys/xfs/hwhxfs.o /home/hwh/桌面/logsys/xfs/hwhxfs.mod.o;  true
