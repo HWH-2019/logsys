@@ -7,6 +7,15 @@
 - 我们将这五个部分融合成了一个日志管理系统，当然效果非常简陋，不过我相信用来作为练习已经够用了。
 - 除了提供了最终效果的源码外，还专门准备了不同模块操作的详细教程，当然为了融合起来我们最终做了一些调整，但是从最简单的开始我相信你能更加理解linux内核。
 
+# Structure
+- **driver** -- Contains a custom block device driver module
+- **pagefault** -- Contains a custom page fault interrupt statistics module
+- **syscall** -- Contains system call test files
+- **xfs** -- Most of the content in this folder comes from the linux kernel, we just modified part of the files
+- **main.cpp** -- The main program, including the use of system calls and user logic processing
+- **start.sh** -- Startup scripts, including preparation of various modules
+- **clean.sh** -- Clean up scripts, remove related modules
+
 # Tutorials
 - [Adding system calls(添加系统调用)](https://blog.csdn.net/h2763246823/article/details/122534644?spm=1001.2014.3001.5501)
 
@@ -14,7 +23,7 @@
 
 - [Adding block device drivers(添加块设备驱动)](https://blog.csdn.net/h2763246823/article/details/122548221?spm=1001.2014.3001.5501)
 
-- [Timer usage(定时器使用)]()
+- [Timer usage(定时器使用)]()(待完善)
 
 - [Page fault interrupt statistics(缺页中断数统计)](https://blog.csdn.net/h2763246823/article/details/122559742?spm=1001.2014.3001.5501)
 
