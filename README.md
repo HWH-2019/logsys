@@ -29,7 +29,7 @@
 
 - [Adding block device drivers(添加块设备驱动)](https://blog.csdn.net/h2763246823/article/details/122548221?spm=1001.2014.3001.5501)
 
-- [Timer usage(定时器使用)]()(待完善)
+- [Timer usage(定时器使用)](https://blog.csdn.net/weixin_45762499/article/details/122566973)
 
 - [Page fault interrupt statistics(缺页中断数统计)](https://blog.csdn.net/h2763246823/article/details/122559742?spm=1001.2014.3001.5501)
 
