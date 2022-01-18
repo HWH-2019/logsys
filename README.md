@@ -6,3 +6,19 @@
 - 这是linux内核修改的一个综合练习项目，包含了添加系统调用、修改xfs文件系统、添加块设备驱动、定时器使用和缺页中断数统计。
 - 我们将这五个部分融合成了一个日志管理系统，当然效果非常简陋，不过我相信用来作为练习已经够用了。
 - 除了提供了最终效果的源码外，还专门准备了不同模块操作的详细教程，当然为了融合起来我们最终做了一些调整，但是从最简单的开始我相信你能更加理解linux内核。
+
+# Tutorials
+- [Adding system calls(添加系统调用)](https://blog.csdn.net/h2763246823/article/details/122534644?spm=1001.2014.3001.5501)
+
+- [Modifying the xfs file system(修改xfs文件系统)](https://blog.csdn.net/h2763246823/article/details/122538992?spm=1001.2014.3001.5501)
+
+- [Adding block device drivers(添加块设备驱动)](https://blog.csdn.net/h2763246823/article/details/122548221?spm=1001.2014.3001.5501)
+
+- [Timer usage(定时器使用)]()
+
+- [Page fault interrupt statistics(缺页中断数统计)](https://blog.csdn.net/h2763246823/article/details/122559742?spm=1001.2014.3001.5501)
+
+# Related
+- [Install and create a virtual machine(安装并创建虚拟机)](https://blog.csdn.net/h2763246823/article/details/122522464)
+- [Install Ubuntu under VMware virtual machine(VMware虚拟机下安装Ubuntu)](https://blog.csdn.net/h2763246823/article/details/122523076)
+- [The latest tutorial on kernel compilation + summary of common problems(内核编译最新教程+常见问题总结)](https://blog.csdn.net/h2763246823/article/details/122522326)
