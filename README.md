@@ -7,6 +7,12 @@
 - 我们将这五个部分融合成了一个日志管理系统，当然效果非常简陋，不过我相信用来作为练习已经够用了。
 - 除了提供了最终效果的源码外，还专门准备了不同模块操作的详细教程，当然为了融合起来我们最终做了一些调整，但是从最简单的开始我相信你能更加理解linux内核。
 
+# Environment
+- 虚拟机： `VMware workstation pro 16`
+- 虚拟机操作系统： `ubuntu-20.04.3-desktop-amd64`
+- 原系统内核版本：`5.11.0-46-generic`
+- 内核源码版本：`5.11.1`
+
 # Structure
 - **driver** -- Contains a custom block device driver module
 - **pagefault** -- Contains a custom page fault interrupt statistics module
